@@ -1,0 +1,40 @@
+{
+  "name": "bdtl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.45.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.4",
+    "less": "^4.4.1",
+    "less-loader": "^12.3.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.7.1",
+    "layui": "^2.8.0-rc.2",
+    "layui-layer": "^1.0.9",
+    "three": "^0.179.1",
+    "three-mesh-bvh": "^0.6.0",
+    "three-tile": "^0.11.8"
+  }
+}
